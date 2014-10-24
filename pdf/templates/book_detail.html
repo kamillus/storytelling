@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% block title %}Console{% endblock %}
+
+{% block content %}
+
+{% if book == "1" %}
+	Content for the first book, you should probably replace the if above with content passed from the model
+{% else %}
+{% endif %}
+
+{% endif %}
+{% endblock %}
